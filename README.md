@@ -65,7 +65,7 @@ python src/train_efficientnet_b5.py
 ```
 2. Mengevaluasi akurasi performa model menggunakan data pengujian (*testing set*):
 ```bash
-python src/evaluate_all.py
+python src/evaluate_[nama model].py
 ```
 
 ## Prediksi Manual dan Aplikasi Web (*Inference & Web App*)
@@ -73,7 +73,7 @@ Anda dapat menjalankan prediksi dengan menggunakan user interface yang dibuat di
 
 1. Melakukan prediksi manual untuk gambar tertentu melalui terminal:
 ```bash
-python src/infer.py
+python src/infer_[nama model].py
 ```
 
 2. **Menjalankan Aplikasi Web (Sangat Direkomendasikan):**
